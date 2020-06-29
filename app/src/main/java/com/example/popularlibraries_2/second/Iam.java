@@ -7,6 +7,6 @@ import com.example.popularlibraries_2.Constants;
 public class Iam implements Observer, Constants {
     @Override
     public void updateData(String msg) {
-        Log.d(TAG, "updateData: " + msg);
+        Log.d(TAG, "updateData: " + Thread.currentThread().getName() + " " + msg);
     }
 }

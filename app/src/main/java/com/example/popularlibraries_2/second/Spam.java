@@ -23,18 +23,18 @@ public class Spam implements Observable, Constants {
     @Override
     public void registerObserver(Observer observer) {
         arrayList.add(observer);
-        Log.d(TAG, "registerObserver: observer № " + arrayList.size());
+        Log.d(TAG, "registerObserver: observer № " + arrayList.size() + " " + Thread.currentThread().getName());
     }
 
     @Override
     public void unregisterObserver(Observer observer) {
         arrayList.remove(observer);
-        Log.d(TAG, "unregisterObserver: observer № " + (arrayList.size() + 1));
+        Log.d(TAG, "unregisterObserver: observer № " + (arrayList.size() + 1) + " " + Thread.currentThread().getName());
     }
 
     @Override
     public void notifyAllObservers() {
-        Log.d(TAG, "notifyAllObservers: ");
+        Log.d(TAG, "notifyAllObservers: " + Thread.currentThread().getName());
         for (int i = 0; i < arrayList.size(); i++) {
             Observer observer = arrayList.get(i);
             observer.updateData(msg);
