@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PopularLibraries_2</string>
+    <string name="add_subscription">add subscription</string>
+    <string name="spam">spam</string>
+    <string name="delete_subscription">delete subscription</string>
+    <string name="press_for_start">Press for start</string>
 </resources>
