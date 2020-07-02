@@ -12,11 +12,11 @@
         android:layout_height="wrap_content"
         android:text="@string/add_subscription"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/hw3DelSubBtn"
+        app:layout_constraintEnd_toStartOf="@+id/hw3DelBtn"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/hw3DelSubBtn"
+        android:id="@+id/hw3DelBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/delete_subscription"
@@ -25,7 +25,7 @@
         app:layout_constraintStart_toEndOf="@+id/hw3AddSubBtn" />
 
     <TextView
-        android:id="@+id/hw3MsgView"
+        android:id="@+id/hw3SecodMsgView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:textSize="@dimen/textSize"

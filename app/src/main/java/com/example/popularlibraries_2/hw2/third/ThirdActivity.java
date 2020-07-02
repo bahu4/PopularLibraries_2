@@ -80,7 +80,7 @@ public class ThirdActivity extends AppCompatActivity implements Constants {
 
     private void initView() {
         subscribe = findViewById(R.id.hw3AddSubBtn);
-        unsubscribe = findViewById(R.id.hw3DelSubBtn);
-        msgView = findViewById(R.id.hw3MsgView);
+        unsubscribe = findViewById(R.id.hw3DelBtn);
+        msgView = findViewById(R.id.hw3SecodMsgView);
     }
 }
