@@ -19,9 +19,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".hw2.third.ThirdActivity"></activity>
-        <activity android:name=".hw2.second.SecondActivity" />
-        <activity android:name=".hw2.first.FirstActivity" />
     </application>
 
 </manifest>
