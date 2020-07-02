@@ -1,4 +1,4 @@
-package com.example.popularlibraries_2.third;
+package com.example.popularlibraries_2.hw2.third;
 
 import android.util.Log;
 

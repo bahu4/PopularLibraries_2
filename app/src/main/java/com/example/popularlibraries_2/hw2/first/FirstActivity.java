@@ -1,4 +1,4 @@
-package com.example.popularlibraries_2.first;
+package com.example.popularlibraries_2.hw2.first;
 
 import androidx.appcompat.app.AppCompatActivity;
 

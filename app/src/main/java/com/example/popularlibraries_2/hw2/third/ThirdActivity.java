@@ -1,4 +1,4 @@
-package com.example.popularlibraries_2.third;
+package com.example.popularlibraries_2.hw2.third;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -79,8 +79,8 @@ public class ThirdActivity extends AppCompatActivity implements Constants {
     }
 
     private void initView() {
-        subscribe = findViewById(R.id.addSubBtn);
-        unsubscribe = findViewById(R.id.delSubBtn);
-        msgView = findViewById(R.id.msgView);
+        subscribe = findViewById(R.id.hw3AddSubBtn);
+        unsubscribe = findViewById(R.id.hw3DelSubBtn);
+        msgView = findViewById(R.id.hw3MsgView);
     }
 }
