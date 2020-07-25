@@ -8,4 +8,10 @@ public class JsonClass {
 
     @Expose
     public String year;
+
+    @Expose
+    public String login;
+
+    @Expose
+    public String avatar_url;
 }
