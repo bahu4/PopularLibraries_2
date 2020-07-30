@@ -12,13 +12,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".hw6.task2.DiActivity"></activity>
-        <activity android:name=".hw6.task1.NoDiActivity">
+        <activity android:name=".hw6.task2.DiActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".hw6.task1.NoDiActivity">
+
         </activity>
         <activity android:name=".hw5.RoomActivity"></activity>
         <activity android:name=".hw4.task2.RetrofitActivity" />
