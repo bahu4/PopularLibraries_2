@@ -11,18 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".hw4.task2.RetrofitActivity">
+        <activity android:name=".hw5.RoomActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".hw4.task1.GsonActivity">
+        <activity android:name=".hw4.task2.RetrofitActivity">
 
         </activity>
+        <activity android:name=".hw4.task1.GsonActivity"></activity>
         <activity android:name=".hw3.second.HW3_SecondActivity" />
-        <activity android:name=".hw3.first.HW3_FirstActivity"></activity>
+        <activity android:name=".hw3.first.HW3_FirstActivity" />
     </application>
 
 </manifest>
